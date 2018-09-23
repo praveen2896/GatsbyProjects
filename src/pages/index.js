@@ -5,10 +5,18 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+   <h1>Hi people</h1>
+    <p>Hi I am PraveenKumar , trying to explore Gatsby and React.</p>
+    <p>My Goals is to Learn #RAN js</p>
+      <ul>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Node</li>
+      </ul>
+    <p>Excited to attend My First Hackathon</p>
+    <Link to="/page-2/">Go to My Carrer</Link>
+    <p></p>
+    <footer>Thanks to Quincy Larson for this oppurtuniy</footer>
   </Layout>
 )
 
