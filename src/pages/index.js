@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
    <h1>Hi people</h1>
-    <p>Hi I am Gayu , trying to explore Gatsby and React.</p>
+    <p>Hi I am Gayathri , trying to explore Gatsby and React.</p>
     <p>My Goals is to Learn #RAN js</p>
       <ul>
         <li>React</li>
