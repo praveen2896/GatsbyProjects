@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
    <h1>Hi people</h1>
-    <p>Hi I am Gayathri , trying to explore Gatsby and React.</p>
+    <p>Hi I am PraveenKumar , trying to explore Gatsby and React.</p>
     <p>My Goals is to Learn #RAN js</p>
       <ul>
         <li>React</li>
@@ -14,7 +14,7 @@ const IndexPage = () => (
         <li>Node</li>
       </ul>
     <p>Excited to attend My First Hackathon</p>
-    <Link to="/page-2/">Go to My Carrer</Link>
+    <Link to="/carrer/">Go to My Carrer</Link>
     <p></p>
     <footer>Thanks to Quincy Larson for this oppurtuniy</footer>
   </Layout>
