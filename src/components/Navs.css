@@ -1,0 +1,23 @@
+.ulist {
+    list-style-type: none;
+     margin: 0;
+    padding: 0; 
+    overflow: hidden;
+    
+}
+
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+}
+
+
+.list {
+    float: left;
+}
+
+
+
