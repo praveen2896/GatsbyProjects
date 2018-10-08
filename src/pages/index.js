@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import './index.css'
-import logo from '../images/nodejs.jpeg'
+import logo from '../images/nodejs.jpg'
 
 const IndexPage = () => (
   <Layout>
