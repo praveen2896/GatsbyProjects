@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import '../css/styles.css'
 import './header.css'
 import '../css/theme.css'
-
+import image from '../images/Mine.jpg'
 
 
 const Header = ({ siteTitle }) => (
@@ -13,13 +13,15 @@ const Header = ({ siteTitle }) => (
       background: 'rebeccapurple',
     }}
   >
+
     <div
       style={{
         // margin: '0 auto',
-        maxWidth: 960,
+        // maxWidth: 1020,
         padding: '1.45rem 1.0875rem',
       }}
     >
+      
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -28,13 +30,16 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
+          <img className="image1" style={{
+        
+      }} alt="Praveen" src={image}/>
           {siteTitle}
         </Link>
-        
-      <a target="_blank" rel="noopener noreferrer" href="https://github.com/praveen2896"><i class="fab fa-github"></i></a>
+       
+      
       <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/lucifierpraveen"><i class="fab fa-twitter"></i></a>
       <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in"><i class="fab fa-linkedin"></i></a>
-
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/praveen2896"><i class="fab fa-github"></i></a>
         
       </h1>
       <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet"/>
@@ -47,4 +52,4 @@ const Header = ({ siteTitle }) => (
   </div>
 )
 
-export default Header
+export default Header;

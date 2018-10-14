@@ -5,6 +5,7 @@ import Navigation from './Navs'
 import Header from './header'
 import './layout.css'
 
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -18,7 +19,7 @@ const Layout = ({ children }) => (
     `} 
     render={data => (
       <>
-        
+     
    <Header siteTitle="PraveenKumar" />
 
     <Navigation/>

@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import './index.css'
 import logo from '../images/nodejs.jpg'
+import withStyles from './Projects'
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
       <img className="mainimage" src={logo} alt="Pic Loading" width="900" height="500" />  
     <p>Excited to attend My First Hackathon</p>
     <p></p>
+    <withStyles/>
     <footer>Thanks to Quincy Larson for this oppurtuniy</footer>
     </div>
   </Layout>
