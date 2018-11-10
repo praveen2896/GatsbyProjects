@@ -4,8 +4,12 @@ import Layout from '../components/layout'
 
 const Projects = () => (
    <Layout>
-       <Cards Title="Open ALm" content="">
+       <div style={{
+          
+       }}>
+       <Cards style={{margintop:20}}Title="Open ALm" content="">
        </Cards>
+       </div>
     </Layout>
 )
 

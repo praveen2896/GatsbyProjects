@@ -4,6 +4,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import Navigation from './Navs'
 import Header from './header'
 import './layout.css'
+import './Navs.css'
+
 
 
 const Layout = ({ children }) => (
@@ -21,7 +23,7 @@ const Layout = ({ children }) => (
       <>
      
    <Header siteTitle="PraveenKumar" />
-
+  
     <Navigation/>
         <div
           style={{

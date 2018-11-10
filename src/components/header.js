@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
     
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#1da1f2',
     }}
   >
 
@@ -35,12 +35,18 @@ const Header = ({ siteTitle }) => (
       }} alt="Praveen" src={image}/>
           {siteTitle}
         </Link>
-       
-      
-      <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/lucifierpraveen"><i class="fab fa-twitter"></i></a>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in"><i class="fab fa-linkedin"></i></a>
-      <a target="_blank" rel="noopener noreferrer" href="https://github.com/praveen2896"><i class="fab fa-github"></i></a>
-        
+           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/lucifierpraveen"><i style={{
+             color:"white"
+           }}class="fab fa-twitter"></i></a>
+           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in"><i style={{
+             color:" #0077B5"
+           }}class="fab fa-linkedin"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/praveen2896"><i style={{
+              color:"#333"
+            }} class="fab fa-github"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/praveen2896"><i style={{
+              color:"#333"
+            }} class="fab fa-adress-card"></i></a>
       </h1>
       <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet"/>
     	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"/>  

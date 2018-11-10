@@ -2,10 +2,12 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  
 }
 body {
   margin: 0; 
- 
+  
+ background-color:#fff;
 }
 article,
 aside,
@@ -525,7 +527,10 @@ ol li {
 }
 ul li {
   padding-left: 0;
+  /* padding-right:170px; */
+
 }
+
 li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
@@ -533,15 +538,15 @@ li > ol {
 }
 li > ul {
   margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
+  /* margin-bottom: calc(1.45rem / 2); */
   margin-top: calc(1.45rem / 2);
 }
 blockquote *:last-child {
   margin-bottom: 0;
 }
-li *:last-child {
+/* li *:last-child {
   margin-bottom: 0;
-}
+} */
 p *:last-child {
   margin-bottom: 0;
 }
@@ -624,8 +629,11 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 472px) {
   html {
     font-size: 100%;
+    background-color: aqua;
+    overflow: scroll;
   }
 }
+

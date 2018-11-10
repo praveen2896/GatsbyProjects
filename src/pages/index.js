@@ -4,6 +4,7 @@ import './index.css'
 import logo from '../images/nodejs.jpg'
 import withStyles from './Projects'
 
+
 const IndexPage = () => (
   <Layout>
    <div>
