@@ -1,22 +1,32 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import './Navs.css'
-
+import {Navbar,Nav,NavItem} from "react-bootstrap"
 
 
 
 const Navigation = (props) =>(
     
     <div className="container">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"/>
-      <ul  className="ulist">
-        {/* <li className="list"><Link to={props.link}>{props.name}</Link></li> */}
-        <li className="list"><Link to="/carrer/">Carrer</Link></li>
-        <li className="list"><Link to="/Education/">Education</Link></li>
-        <li className="list"><Link to="//">Intro</Link></li>
-        <li className="list"><Link to="//">Technologies</Link></li>
-        <li className="list"><Link to="/Projects/">Projects</Link></li> 
-      </ul>
+      <Navbar>
+        <Nav>
+            <NavItem>
+              <Link to="/carrer/">Carrer</Link>
+            </NavItem>
+            <NavItem>
+            <Link to="/Education/">Education</Link>
+            </NavItem>
+            <NavItem>
+            <Link to="//">Intro</Link>
+            </NavItem>
+            <NavItem>
+            <Link to="/Technologies/">Technologies</Link>
+            </NavItem>
+            <NavItem>
+            <Link to="/Projects/">Projects</Link>
+            </NavItem>
+        </Nav>
+      </Navbar>
       
      </div>
     

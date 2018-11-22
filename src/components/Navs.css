@@ -1,4 +1,4 @@
-.ulist {
+/* .ulist {
     list-style-type: none;
     margin: 0;
     padding: 0; 
@@ -26,4 +26,28 @@ li a {
 }
 
 
+ */
 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #99ffdd;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 7px 55px 3px ;
+    text-decoration: none;
+}
+
+li :hover{
+    color: coral;
+}
